@@ -1,14 +1,12 @@
-# Dossiers de compilation (Bytecode)
-bin/
+# Dossiers de binaires (Compilation Eclipse)
+Robi/bin/
+SParser/bin/
+2DGraphicCore/bin/
+
+# Fichiers de classe isolés
 *.class
 
-# Fichiers temporaires d'Eclipse
+# Configuration utilisateur Eclipse (évite les conflits de workspace)
+.metadata/
 .settings/
 .recommenders/
-
-# Fichiers de log et système
-*.log
-.DS_Store
-Thumbs.db
-
-tests/bin/
