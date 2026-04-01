@@ -19,7 +19,6 @@ public class Exercice1_0 {
     public Exercice1_0() {
         robi.setDimension(new Dimension(40, 20));
         robi.setColor(Color.BLUE);
-        
         space.addElement(robi);
         space.open();
         
