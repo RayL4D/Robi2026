@@ -1,0 +1,14 @@
+# Dossiers de compilation (Bytecode)
+bin/
+*.class
+
+# Fichiers temporaires d'Eclipse
+.settings/
+.recommenders/
+
+# Fichiers de log et système
+*.log
+.DS_Store
+Thumbs.db
+
+tests/bin/
